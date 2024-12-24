@@ -107,6 +107,7 @@ Senha: 1234
 Comum
 Usuário: usuario
 Senha: 1234
+-----------------------
 
 ### 📋 Permissões
 Admin: Pode adicionar usuários e visualizar a lista completa.
