@@ -27,9 +27,10 @@ npm ou yarn para gerenciar pacotes
 
 2. Clonar o Repositório em sua pasta
    git clone https://github.com/VitoriaDourado/project-user-vuetify.git
+   --------------------------------------------------------------------------
     cd nome-do-repositorio
 
-3. Instalar Dependências
+4. Instalar Dependências
   Instale todas as dependências necessárias para o front-end e o JSON Server:
     npm install
    
