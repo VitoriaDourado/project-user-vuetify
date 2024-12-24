@@ -1,6 +1,6 @@
 <template>
-  <v-container max-width="1000" class="pa-4" style="width: 90vw;">
-    <v-card class="mx-auto" max-width="500">
+  <v-container max-width="1000" class="pa-4" style="width: 100%; display: flex; justify-content: center;">
+    <v-card class="mx-auto" max-width="600" style="width: 100%; max-width: 600px; padding: 24px;">
       <v-card-title class="text-h5 text-center">Login</v-card-title>
       <v-card-text>
         <v-form ref="form" v-model="valid">
@@ -16,7 +16,7 @@
 <script lang="ts">
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import {useUserStore} from '../stores/userStore'
+import { useUserStore } from '../stores/userStore'
 import IUsuario from '@/models/IUsuario'
 
 interface User {
@@ -36,7 +36,6 @@ export default {
 
     const login = async () => {
       try {
-        // Fazendo a requisição para a API
         const response = await fetch('http://localhost:3000/login')
 
         if (!response.ok) {
@@ -45,10 +44,8 @@ export default {
 
         const users: User[] = await response.json()
 
-        // Logando os dados da resposta para verificar se estão corretos
         console.log('Usuários recebidos da API:', users);
 
-        // Logando os valores de entrada
         console.log('Usuário digitado:', username.value);
         console.log('Senha digitada:', password.value);
 
@@ -67,7 +64,6 @@ export default {
 
           store.addUser(usuario)
 
-          // Redirecionando de acordo com o tipo do usuário
           if (user.tipo === 1) {
             router.push('/users/new')
           } else {
@@ -99,20 +95,20 @@ export default {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  /* Adicionando largura personalizada */
-  max-width: 100%;
-  padding: 0 5%;
+  padding: 0 10%;
 }
 
 .v-card {
-  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  padding: 24px;
 }
 
 .v-card-title {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .v-btn {
@@ -120,6 +116,6 @@ export default {
 }
 
 .v-text-field {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 </style>
