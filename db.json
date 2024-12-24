@@ -1,0 +1,26 @@
+{
+  "usuarios": [
+    {
+      "id": "7edc",
+      "nome": "Vitoria",
+      "matricula": "1234",
+      "idade": "21",
+      "cargo": "Desenvolvedor",
+      "tipo": 2
+    }
+  ],
+  "login": [
+    {
+      "id": "1",
+      "usuario": "admin",
+      "senha": "1234",
+      "tipo": 1
+    },
+    {
+      "id": "2",
+      "usuario": "comum",
+      "senha": "5678",
+      "tipo": 2
+    }
+  ]
+}
