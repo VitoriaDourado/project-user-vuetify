@@ -119,6 +119,6 @@ Este projeto foi desenvolvido para testar diferentes permissões de acesso, orga
 ### 📞 Contato
 Caso tenha dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
 
-✉️ Email: vitoriadouradod@gmail.com
-📂 GitHub: github.com/VitoriaDourado
-💻 LinkedIn: www.linkedin.com/in/vitoriadourado/
+✉️ Email: vitoriadouradod@gmail.com |
+📂 GitHub: github.com/VitoriaDourado |
+💻 LinkedIn: www.linkedin.com/in/vitoriadourado/ |
