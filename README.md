@@ -43,13 +43,11 @@ npm ou yarn para gerenciar pacotes
 7. Testar o Login
 Use as credenciais abaixo para acessar o sistema:
 
-Admin:
+Admin
 Usuário: admin
 Senha: 1234
-----------------
-Comum:
+Comum
 Usuário: usuario
 Senha: 1234
-
-----------------
-O admin será responsável por adicionar usuários e ver a lista deles, já o comum ficará responsável apenas para ver a lista de usuários.
+O Admin será responsável por adicionar usuários e ver a lista deles.
+O Comum ficará responsável apenas por visualizar a lista de usuários.
