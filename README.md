@@ -46,8 +46,10 @@ Use as credenciais abaixo para acessar o sistema:
 Admin
 Usuário: admin
 Senha: 1234
+----------------
 Comum
 Usuário: usuario
 Senha: 1234
+----------------
 O Admin será responsável por adicionar usuários e ver a lista deles.
 O Comum ficará responsável apenas por visualizar a lista de usuários.
