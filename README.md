@@ -42,10 +42,8 @@ git clone https://github.com/VitoriaDourado/project-user-vuetify.git
 cd project-user-vuetify
 
 ###
-Ah, entendi! Vou reestruturar com a configuração padrão para um arquivo README no formato Markdown, utilizando os títulos e separações com #, ##, ###, etc. Aqui está a versão revisada:
 
-markdown
-Copiar código
+
 # Projeto de Teste de Usuários
 
 Este projeto implementa um sistema de login utilizando **Vue.js** no front-end e **JSON Server** no back-end. Foi criado para realizar testes com usuários dos tipos **Admin** e **Comum**, utilizando classes para organização do código e configuração para rodar tanto o front-end quanto o back-end simultaneamente.
@@ -77,7 +75,7 @@ Este projeto implementa um sistema de login utilizando **Vue.js** no front-end e
 Certifique-se de ter os seguintes itens instalados em sua máquina:
 
 - **Node.js**
-- **npm** ou **yarn** para gerenciar pacotes
+- **npm**  para gerenciar pacotes
 
 ---
 
